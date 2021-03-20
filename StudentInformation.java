@@ -6,15 +6,18 @@ public class StudentInformation
 	private String bDate;
 	private String add;
 	private String gen;
+
 	private String studemail;
         private int studnum;
+	private String course;
+	private String major;
+
 	 //Method 1: Manalo Olga Erica
   public void getFname(String Fname)
     {
         this.Fname = Fname;
     }
- 
-    public String showFname()
+     public String showFname()
     {
         return Fname;
     }
@@ -68,6 +71,7 @@ public class StudentInformation
     {
         return gen;
     }
+
 //Method 9:Silastre Jan Guiller 
     public void getStudentEmail(String studemail)
     {
@@ -88,6 +92,29 @@ public class StudentInformation
     public int showStudentNo()
     {
         return studnum;
+
+
+//Method 7: Guiwa Joshua
+    public void getCourse(String course)
+    {
+        this.course = course;
+    }
+ 
+    public String showCourse()
+    {
+        return course;
+    }
+    
+    //Method 8: Guiwa Joshua
+    public void getMajor(String major)
+    {
+        this.major = major;
+    }
+ 
+    public String showMajor()
+    {
+        return major;
+
     }
 
 }
