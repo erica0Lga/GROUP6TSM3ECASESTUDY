@@ -11,8 +11,10 @@ public class StudentInformation
         private int studnum;
 	private String course;
 	private String major;
-
-	 //Method 1: Manalo Olga Erica
+	private int dob;
+	private int year;
+	
+ //Method 1: Manalo Olga Erica
   public void getFname(String Fname)
     {
         this.Fname = Fname;
@@ -116,5 +118,25 @@ public class StudentInformation
         return major;
 
     }
-
+//Method 11: Harley Gordovin Jr.
+    public void getDateofBirth(int dob)
+    {
+        this.dob = dob;
+    }
+ 
+    public int showDateofBirth()
+    {
+        return dob;
+    }
+    
+    //Method 12: Harley Gordovin Jr.
+    public void getYear(int year)
+    {
+        this.year = year;
+    }
+ 
+    public int showYear()
+    {
+        return year;
+    }
 }
