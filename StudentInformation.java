@@ -6,6 +6,9 @@ public class StudentInformation
 	private String bDate;
 	private String add;
 	private String gen;
+
+	private String studemail;
+        private int studnum;
 	private String course;
 	private String major;
 
@@ -69,6 +72,28 @@ public class StudentInformation
         return gen;
     }
 
+//Method 9:Silastre Jan Guiller 
+    public void getStudentEmail(String studemail)
+    {
+        this.studemail = studemail;
+    }
+ 
+    public String showStudentEmail()
+    {
+        return studemail;
+    }
+    
+    //Method 10:Silastre Jan Guiller
+    public void getStudentNo(int studnum)
+    {
+        this.studnum = studnum;
+    }
+ 
+    public int showStudentNo()
+    {
+        return studnum;
+
+
 //Method 7: Guiwa Joshua
     public void getCourse(String course)
     {
@@ -89,6 +114,7 @@ public class StudentInformation
     public String showMajor()
     {
         return major;
+
     }
 
 }
