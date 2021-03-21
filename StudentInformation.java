@@ -13,7 +13,9 @@ public class StudentInformation
 	private int dob;
 	private int year;
 	private int gwa;
-    private int allowance;
+    	private int allowance;
+	private int height;
+	private int weight;
 	
 	//Method 1: Manalo Olga Erica
 	public void getFname(String Fname)
@@ -166,5 +168,26 @@ public class StudentInformation
     public int showAllowance()
     {
         return allowance;
+    }
+
+    //Method 15: Manalo Olga Erica (again)
+public void getHeight(int height)
+    {
+        this.height = height;
+    }
+ 
+    public int showHeight()
+    {
+        return height;
+    }
+    //Method 16: Manalo Olga Erica (again)
+public void getWeight(int weight)
+    {
+        this.weight = weight;
+    }
+ 
+    public int showWeight()
+    {
+        return weight;
     }
 }
