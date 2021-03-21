@@ -6,16 +6,17 @@ public class StudentInformation
 	private String bDate;
 	private String add;
 	private String gen;
-
-	private String studemail;
-        private int studnum;
 	private String course;
 	private String major;
+	private String studemail;
+	private int studnum;
 	private int dob;
 	private int year;
+	private int gwa;
+    private int allowance;
 	
- //Method 1: Manalo Olga Erica
-  public void getFname(String Fname)
+	//Method 1: Manalo Olga Erica
+	public void getFname(String Fname)
     {
         this.Fname = Fname;
     }
@@ -23,6 +24,7 @@ public class StudentInformation
     {
         return Fname;
     }
+    
      //Method 2: Manalo Olga Erica
     public void getMname(String Mname)
     {
@@ -33,6 +35,7 @@ public class StudentInformation
     {
         return Mname;
     }
+    
      //Method 3: Fajardo Dynel Angelo
 	public void getLname(String Lname)
     {
@@ -43,6 +46,7 @@ public class StudentInformation
     {
         return Lname;
     }
+    
      //Method 4:Fajardo Dynel Angelo
     public void getBDate(String bDate)
     {
@@ -52,6 +56,7 @@ public class StudentInformation
     {
         return bDate;
     }
+    
     //Method 5: Flordeliza Matt Reuben
     public void getAddress(String add)
     {
@@ -74,29 +79,7 @@ public class StudentInformation
         return gen;
     }
 
-//Method 9:Silastre Jan Guiller 
-    public void getStudentEmail(String studemail)
-    {
-        this.studemail = studemail;
-    }
- 
-    public String showStudentEmail()
-    {
-        return studemail;
-    }
-    
-    //Method 10:Silastre Jan Guiller
-    public void getStudentNo(int studnum)
-    {
-        this.studnum = studnum;
-    }
- 
-    public int showStudentNo()
-    {
-        return studnum;
-
-
-//Method 7: Guiwa Joshua
+	//Method 7: Guiwa Joshua
     public void getCourse(String course)
     {
         this.course = course;
@@ -118,7 +101,30 @@ public class StudentInformation
         return major;
 
     }
-//Method 11: Harley Gordovin Jr.
+    
+    //Method 9:Silastre Jan Guiller 
+    public void getStudentEmail(String studemail)
+    {
+        this.studemail = studemail;
+    }
+ 
+    public String showStudentEmail()
+    {
+        return studemail;
+    }
+    
+    //Method 10:Silastre Jan Guiller
+    public void getStudentNo(int studnum)
+    {
+        this.studnum = studnum;
+    }
+ 
+    public int showStudentNo()
+    {
+        return studnum;
+    }
+    
+	//Method 11:Gordovin Jr.Harley
     public void getDateofBirth(int dob)
     {
         this.dob = dob;
@@ -129,7 +135,7 @@ public class StudentInformation
         return dob;
     }
     
-    //Method 12: Harley Gordovin Jr.
+    //Method 12: Gordovin Jr. Harley
     public void getYear(int year)
     {
         this.year = year;
@@ -138,5 +144,27 @@ public class StudentInformation
     public int showYear()
     {
         return year;
+    }
+    
+    //Method 13:Asuncion Allyssa
+    public void getGWA(int gwa)
+    {
+        this.gwa = gwa;
+    }
+ 
+    public int showGWA()
+    {
+        return dob;
+    }
+    
+    //Method 14: Asuncion Allyssa
+    public void getAllowance(int allowance)
+    {
+        this.allowance = allowance;
+    }
+ 
+    public int showAllowance()
+    {
+        return allowance;
     }
 }
